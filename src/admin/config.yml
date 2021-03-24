@@ -48,7 +48,7 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
-   - label: "Testimonial"
+  - label: "Testimonial"
     name: "testimonial"
     folder: "src/testimonial"
     create: true
