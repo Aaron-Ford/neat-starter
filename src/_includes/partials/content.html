@@ -1,10 +1,10 @@
-<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
+<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-3 gap-4 my-8 px-4 lg:mx-0">
 
     {% if quicklinks.links %}
 
         {% for item in quicklinks.links %}
-            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
-            <img src="{{item.image}}">
+            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-green-400 hover:shadow-xl">
+            <img class="rounded-full mb-4" src="{{item.image}}">
                 <h3>{{item.name}}
                     →</h3>
                 <p class="font-serif">{{item.title}}</p>
