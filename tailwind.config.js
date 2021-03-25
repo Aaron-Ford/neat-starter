@@ -11,7 +11,13 @@ module.exports = {
       center: true,
     },
     extend: {
-      colors: {},
+      colors: {
+        primary: {
+          light: '#afffdb',
+          DEFAULT: '#afffda',
+          dark: '#afffdc',
+        },
+      },
     },
     fontFamily: {
       'sans': ['"Spartan"'],
