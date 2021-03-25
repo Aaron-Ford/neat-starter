@@ -3,8 +3,8 @@
     {% if quicklinks.links %}
 
         {% for item in quicklinks.links %}
-        <img src="{{item.image}}">
             <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
+            <img src="{{item.image}}">
                 <h3>{{item.name}}
                     →</h3>
                 <p class="font-serif">{{item.title}}</p>
