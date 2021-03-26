@@ -6,9 +6,7 @@ links:
     image: https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
     description: Mauris sit amet quam quam. Vivamus dolor mauris, hendrerit ac
       mauris eu, ullamcorper cursus ligula. Sed venenatis purus sed ante luctus
-      sollicitudin. Pellentesque eget molestie turpis. Morbi tempor mollis ante
-      lacinia imperdiet. Pellentesque laoreet lorem quis dui mollis, egestas
-      porttitor mauris condimentum.
+      sollicitudin.
   - title: Another Title
     url: https://www.11ty.dev/
     desc: Eleventy is a simpler static site generator.
@@ -16,9 +14,6 @@ links:
     image: https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
       imperdiet non quam a hendrerit. Praesent tempor suscipit scelerisque.
-      Morbi eget velit dui. Aenean non ligula posuere, tristique sapien sit
-      amet, blandit tortor. Quisque arcu eros, hendrerit at vestibulum
-      sollicitudin, tempus at purus. Aliquam non odio enim.
   - title: One more title
     url: https://github.com/alpinejs/alpine
     desc: A minimal framework for composing JavaScript behavior in your markup.
@@ -26,7 +21,4 @@ links:
     image: https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
     description: Sed nec ipsum ullamcorper, suscipit purus et, fermentum augue. Cras
       sagittis ullamcorper porttitor. Nam consectetur ex eget felis lacinia
-      posuere. Nullam dignissim diam vel pharetra pellentesque. Quisque bibendum
-      nulla in sem tincidunt tincidunt. Orci varius natoque penatibus et magnis
-      dis parturient montes, nascetur ridiculus mus. Nam in pellentesque magna.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      posuere.
