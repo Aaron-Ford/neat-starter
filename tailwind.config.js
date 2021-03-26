@@ -21,6 +21,9 @@ module.exports = {
         tertiary: {
           DEFAULT: '#bacbd9',
         },
+        current: {
+          DEFAULT: '#234468',
+        },
       },
     },
     fontFamily: {
