@@ -34,7 +34,11 @@
   <!-- Needed only if you are using Netlify Identity feature -->
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% endif %}
-  <script type="text/javascript" src="/static/js/script.js"></script>
+  <script type="text/javascript">
+    var rellax = new Rellax('.rellax', {
+    breakpoints:[576, 768, 1201]
+  }); 
+  </script>
 
 </body>
 </html>
