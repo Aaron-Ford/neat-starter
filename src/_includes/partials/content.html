@@ -1,0 +1,50 @@
+  {% include "./hero.html" %}
+  {% include "./feature.html" %}
+
+<!-- <div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-3 gap-4 my-8 px-4 lg:mx-0">
+ -->
+	{% if quicklinks.links %}
+
+	<div class="bg-white">
+		<div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+			<div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+				<div class="space-y-5 sm:space-y-4">
+					<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">About Us</h2>
+					<p class="text-xl text-gray-500 text-sans">We live in an attention driven economy filled with so much distraction and noise. To cut through the clutter, your message must be well thought out. To resonate through all the noise your content must express the real you. At inertia Creations, we help you tell a story that creates momentum that is unstoppable! Fill out our contact form and you'll be making some inertia in no time.</p>
+				</div>
+				<div class="lg:col-span-2">
+					<ul class="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
+						{% for item in quicklinks.links %}
+						<li class="sm:py-8">
+							<div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+								<div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+									<img class="object-cover shadow-lg rounded-lg" src="{{item.image}}" alt="">
+								</div>
+
+								<div class="sm:col-span-2">
+									<div class="space-y-4">
+										<div class="text-lg leading-6 font-medium space-y-1">
+											<h3>{{item.name}}</h3>
+											<p class="text-secondary">{{item.title}}</p>
+										</div>
+										<div class="text-lg">
+											<p class="text-gray-500">{{item.description}}</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						{% endfor %}
+						<!-- More items... -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endif %}
+
+{% include "./testimonial.html" %}
+  {% include "./contact.html" %}
+
+<!-- </div> -->
