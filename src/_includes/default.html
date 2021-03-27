@@ -19,6 +19,9 @@
   <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
   {% endif %}
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
   {% include "./partials/navbar.html" %}
@@ -38,6 +41,7 @@
     var rellax = new Rellax('.rellax', {
     breakpoints:[576, 768, 1201]
   }); 
+    AOS.init();
   </script>
 
 </body>
