@@ -1,7 +1,7 @@
 items:
   - text: Our Team
-    url: "#team"
+    url: /#team
   - text: Portfolio
-    url: /portfolio
+    url: /posts/title
   - text: Contact
     url: /contact
